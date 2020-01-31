@@ -19,7 +19,7 @@ const LoginComp = (props) => {
 
     const postCredentials = (e) => {
         e.preventDefault();
-        Axios.post('https://www.geniusdev.net/tests/login/api/login', {
+        Axios.post('https://www.geniusdev.net/api/tests/login-react-redux/login', {
             email: email,
             password: password
         })

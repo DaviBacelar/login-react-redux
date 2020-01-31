@@ -22,7 +22,7 @@ const RegisterComp = (props) => {
 
     const postCredentials = (e) => {
         e.preventDefault();
-        Axios.post('https://www.geniusdev.net/tests/login/api/register', {
+        Axios.post('https://www.geniusdev.net/api/tests/login-react-redux/register', {
             name: name,
             email: email,
             cpf: cpf,
